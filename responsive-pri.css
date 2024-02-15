@@ -1,0 +1,249 @@
+@media screen and (max-width: 480px){
+  .h2b{
+    overflow:initial;
+    display:flex;
+    flex-wrap:wrap;
+    width:100vw;
+    height:92vh;
+    font-size:6vw;
+    background-color:white;
+    padding:0vw 6vw 20vw 6vw;
+    position:absolute;
+    left:-112%;
+  }
+  .active{
+    overflow:initial;
+    display:flex;
+    flex-wrap:wrap;
+    width:100vw;
+    height:92vh;
+    font-size:6vw;
+    background-color:white;
+    padding:0vw 6vw 20vw 6vw;
+    position:absolute;
+    left:0;
+  }
+
+  .footer{
+  overflow: hidden;
+  }
+  .header{
+  height: 10vw;
+  display: block;
+  justify-content: space-between;
+
+
+  }
+  .head2{
+      padding: 0vw 0 0vw 0;
+      margin-left:0vw;
+
+  }
+  .h2a{
+    display:flex;
+    justify-items:space-between;
+    padding-top:2.4vw;
+
+  }
+  .h2bi{
+      color: #0b041b;
+      margin-left:20vw;
+
+    margin-bottom: 2vw;
+    padding-right:20vw ;
+    text-align: center;
+  }
+
+  .h2ah1{
+    font-size: 6vw;
+    padding-left:2vw;
+  }
+  .h3ci{
+      font-size: 9vw;
+      color: black;
+     margin-left:10vw;
+    padding-right:20vw ;
+
+
+  }
+  .fa-bars{
+   visibility:visible;
+  font-size: 7vw;
+  color:#0B1D51 ;
+  margin-left:55vw;
+  }
+  .menu-icon:hover{
+    scale: 1;
+
+  }
+  .product-overview{
+    display: block;
+    padding-bottom: 3vw;
+    overflow: hidden;
+    
+  }
+  .product-image{
+    width: 90%;
+    height: 80vw;
+    padding: 1vw 0 0 0vw;
+    display:inline-block;
+    border:.2vw solid #01d019;
+    border-radius: 2vw 2vw 2vw 2vw;
+    margin-top: 12vw;
+    margin-left: 5vw;
+    margin-right: 2vw;
+
+  }
+  .img-sidebar{
+    display: flex;
+    flex-direction:row;
+    gap: 3vw;
+    margin-left: 19vw;
+    margin-bottom: 2vw;
+  }
+  .img-sidebar img{
+    width: 8vw;
+  
+
+  }
+  
+  .main-img >img{
+    size: contain;
+    width: 80vw;
+    margin-left: 4vw;
+  }
+  .main-img>img:hover{
+    scale:1;
+    transform: translate(0vw, 0vw); 
+  }
+  .img-sidebar>img:hover{
+    scale:8;
+    transform: translate(2vw, 4.4vw); 
+  }
+  .buy-cart:hover{
+     box-shadow: black 0px 0px 25px .5px;
+  }
+  .buycart{
+    display: flex;
+    width: 90%;
+    justify-content: space-betweem;;
+    padding: 4vw 0 0 2vw;
+
+  }
+  .buy-cart{
+    height:10vw;
+    width: 24vw;
+    border:.15vw solid #FFE347;
+    border-radius:4vw;
+    font-size: 4vw;
+    font-weight: 600;
+  background-color: rgba(1, 208, 25, .2);
+
+  }
+  .product-detail{
+    width: 92%;
+    padding: 6vw 0 4vw 6vw;
+  }
+  .product-name{
+    font-size:8vw;
+  }
+  .product-description{
+    font-size:5vw;
+  }
+
+  .rating{
+    height: 4vw;
+    width: 10vw;
+    background-color: #6f6fe2;
+   padding-left: 1vw;
+    font-size: 3vw;
+    color: #000000;
+    border:.2vw solid #01d019;
+    border-radius: 1vw;
+    margin-top: 3vw;
+    font-weight: 600;
+  }
+
+  .product-price{
+    padding-top: 2vw;
+    font-size: 8vw;
+  }
+  .offers{
+    padding-top: 1.4vw;
+  }
+
+
+  
+  
+  
+.footername{
+    display:none;
+  }
+  .search{
+
+    width: 80%;
+    height: 7vw;
+    background-color: #01d019;
+    font-weight: 550;
+    text-align:start;
+   color:#0B1D51;
+  }
+  
+
+  .foot1{
+      padding: 3vw 3vw 4vw 3vw;
+  }
+  .foot1b{
+      padding-top: .4vw;
+    padding-left:0;
+      width: 40%;
+  }
+  .foot1c{
+      width: 58%;
+      display: flex;
+      justify-content: space-between;
+      padding: 1.5vw 2vw 2.8vw 2vw;
+  }
+  .footic{
+      font-size:4vw;
+  }
+  .foot2{
+      color: rgb(237, 209, 209);
+      display: flex;
+      flex-wrap:wrap;
+      justify-content: space-evenly;
+      padding: 4vw;
+      height:110vw;
+  }
+  .foot2a,.foot2b, .foot2c, .foot2d{
+    width:35vw;
+    padding:0;
+
+  }
+  .foot3{
+      display: block;
+      text-align:centre;
+      height: 18vw;
+      margin-top: 4vw;
+     padding:0 0 9vw 9vw;
+    font-size:5vw;
+  }
+  .foot--1{
+      display: flex;
+      justify-content: space-between;
+     margin:3vw 0 4vw 0vw;
+      padding-left: 5vw;
+      width: 80vw;
+      margin-bottom: 4vw;
+      height: 6vw;
+      border: 0px transparent ;
+      border-top-left-radius: 50px;
+      border-bottom-right-radius: 50px;
+      border-top-right-radius: 20px;
+      border-bottom-left-radius: 20px;
+      background-color: #EF767A;
+      font-size: 5vw;
+    font-weight:600;
+  }
+
+}
